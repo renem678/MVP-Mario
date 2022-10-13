@@ -1,12 +1,10 @@
 {
-  "name": "api",
+  "name": "fe",
   "version": "1.0.0",
   "description": "",
-  "main": "indexServer.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon indexServer.js",
-    "start:production": "node indexServer.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -14,8 +12,6 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "nodemon": "^2.0.20",
-    "pg": "^8.8.0",
-    "postgres": "^3.3.1"
+    "pg": "^8.8.0"
   }
 }

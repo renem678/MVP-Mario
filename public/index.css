@@ -1,0 +1,145 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin: 0;
+  background: black;
+  background-image: url(back.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "Rubik", sans-serif;
+}
+
+h2 {
+  border: 0;
+  color: rgb(11, 11, 11);
+  text-align: left;
+  font-family: "Rubik", sans-serif;
+  left: 0%;
+  position: relative;
+}
+
+#results {
+  display: table-row;
+  max-height: 265px;
+  justify-content: left;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  overflow-y: auto;
+  animation: scroll linear;
+  position: absolute;
+  bottom: 40%;
+}
+
+#characters {
+  display: inline-block;
+  max-height: 265px;
+  justify-content: left;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  overflow-y: auto;
+  animation: scroll linear;
+  position: absolute;
+  bottom: 40%;
+  right: inherit;
+}
+
+#results {
+  max-height: 265px;
+  min-width: 275px;
+  min-height: 40px;
+  display: table-row;
+  color: black;
+  margin: 5px;
+  left: 30%;
+  margin: auto;
+}
+
+#characters {
+  max-height: 265px;
+  min-width: 275px;
+  min-height: 40px;
+  display: table-row;
+  color: black;
+  margin: 5px;
+  right: 10%;
+  margin: auto;
+}
+
+img {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+
+}
+
+
+#gameBtn {
+  margin: 0.5em;
+  border-radius: 80%;
+  border: none;
+  height: 50px;
+  width: 100px;
+  top: 20%;
+  left: 0;
+  position: absolute;
+  background: red;
+  font-family: "Rubik", sans-serif;
+}
+
+#charBtn {
+  margin: 0.5em;
+  border-radius: 80%;
+  border: none;
+  height: 50px;
+  width: 100px;
+  top: 30%;
+  left: 0;
+  position: absolute;
+  background: red;
+  font-family: "Rubik", sans-serif;
+}
+
+#voteBtn {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+  width: 50px;
+  background: black;
+  color: whitesmoke;
+  font-family: "Rubik", sans-serif;
+  display: inline-block;
+}
+
+#vBtn {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+  width: 50px;
+  background: black;
+  color: whitesmoke;
+  font-family: "Rubik", sans-serif;
+  display: inline-block;
+}
+
+#gameVotes {
+  width: 25%;
+  height: fit-content;
+  text-align: center;
+}
+
+#card {
+  left: 10%;
+}
+
+#card1 {
+  right: 10%;
+}
